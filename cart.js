@@ -1,3 +1,4 @@
+// Cart
 var cartId = "cart";
 
 var localAdapter = {
@@ -96,7 +97,7 @@ var helpers = {
     },
     updateTotal: function () {
 
-        this.setHtml('totalPrice', cart.total + '$');
+        this.setHtml('totalPrice', 'R' + cart.total  );
 
     }
 
